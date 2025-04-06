@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasaMia Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+        <img src="images/CasaMia.png" alt="Logo" class="logo">
+        </a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="login.html">Login</a>
+
+        </nav>
+    </header>
+    <section id="home" class="Home">
+        <img src="images/italy.jpg" alt="italy" class="Italy">
+        <h1>"Comfort, elegance, and Italian grace!"</h1>
+
+    </section>
+    <section id="about" class="About">
+        <h1>About</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae neque fuga omnis eum consequatur perspiciatis tempore voluptatem maiores voluptas officia alias minima cum, ab repudiandae voluptatum maxime, laboriosam dignissimos repellat voluptates, animi eveniet obcaecati ipsa incidunt ducimus? Natus laboriosam suscipit cupiditate. Ex ratione itaque nemo omnis assumenda ad doloremque libero illum facilis non, ipsum voluptas quisquam provident nihil dolor doloribus, adipisci repellendus, deserunt quam quo quis? Reprehenderit quae veritatis quos recusandae temporibus. Nostrum fuga tenetur quasi assumenda consequatur saepe possimus, laudantium incidunt voluptatibus eos, error doloremque at porro nam vel quod architecto provident dolor minus sequi nulla veniam accusantium necessitatibus!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae neque fuga omnis eum consequatur perspiciatis tempore voluptatem maiores voluptas officia alias minima cum, ab repudiandae voluptatum maxime, laboriosam dignissimos repellat voluptates, animi eveniet obcaecati ipsa incidunt ducimus? Natus laboriosam suscipit cupiditate. Ex ratione itaque nemo omnis assumenda ad doloremque libero illum facilis non, ipsum voluptas quisquam provident nihil dolor doloribus, adipisci repellendus, deserunt quam quo quis? Reprehenderit quae veritatis quos recusandae temporibus. Nostrum fuga tenetur quasi assumenda consequatur saepe possimus, laudantium incidunt voluptatibus eos, error doloremque at porro nam vel quod architecto provident dolor minus sequi nulla veniam accusantium necessitatibus!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae neque fuga omnis eum consequatur perspiciatis tempore voluptatem maiores voluptas officia alias minima cum, ab repudiandae voluptatum maxime, laboriosam dignissimos repellat voluptates, animi eveniet obcaecati ipsa incidunt ducimus? Natus laboriosam suscipit cupiditate. Ex ratione itaque nemo omnis assumenda ad doloremque libero illum facilis non, ipsum voluptas quisquam provident nihil dolor doloribus, adipisci repellendus, deserunt quam quo quis? Reprehenderit quae veritatis quos recusandae temporibus. Nostrum fuga tenetur quasi assumenda consequatur saepe possimus, laudantium incidunt voluptatibus eos, error doloremque at porro nam vel quod architecto provident dolor minus sequi nulla veniam accusantium necessitatibus!</p>
+    </section>
+
+    <section id="services" class="Services">
+        <div class="services-container">
+            <div class="services-image">
+                <img src="images/services.jpg" alt="Services" />
+            </div>
+            <div class="services-text">
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis sapien non leo venenatis, ut malesuada nulla volutpat. Nulla facilisi. Vestibulum viverra lectus in ante varius euismod. Etiam ac nulla eu nisi posuere placerat eget et lorem.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="Contact">
+        <div class="contact-container">
+            <div class="contact-image">
+                <img src="images/contact.jpg" alt="Contact" />
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <div class="discount-icon" onclick="showPopup()">🎁</div>
+
+    <div class="popup" id="popup">
+        <p id="discount-code"></p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
